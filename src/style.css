@@ -1,0 +1,484 @@
+/* Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/*- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/*Color
+#4d4dff
+*/
+
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+
+}
+.full-container{
+    max-width: 130rem;
+    padding: 0 ;
+    margin: 0 auto;
+}
+
+.s-text{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.grid{
+    display: grid;
+    row-gap: 6.4rem;
+    column-gap:3.2rem;
+}
+
+.grid--2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid--3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-primary{
+    font-size:3.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.75;
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+    
+}
+
+.text-med{
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+}
+
+
+
+    /*header-section*/
+.first-header{
+    padding: 0.4rem 0.8rem;
+    background-color: #506ca5;
+    display: flex;
+    gap:0.4rem;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+
+}
+
+ ion-icon{
+    width: 2.4rem;
+    height: 1.6rem;
+    color: #74ac5c;
+    
+}
+.second-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.2rem 0rem;
+}
+.second-header img{
+    height: 4.8rem;
+}
+
+ion-icon{
+    width: 2.4rem;
+    height: 1.6rem;
+    color: #74ac5c;
+    
+}
+
+
+.third-header{
+    position: relative;
+    background-color: #ffffe0;
+   display: flex;
+   justify-content: flex-end;
+    padding: 1.5rem 3.2rem 0.4rem 1.5rem;
+
+}
+.third-header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap:3.2rem;
+    text-transform: uppercase
+}
+.menu-nav-btn{
+    position: absolute;
+    right: 2rem;
+    top: 0.2rem;
+}
+.third-header button{
+    border: none;
+}
+.third-header ion-icon{
+    display: none;
+    background-color: #ffffe0;
+    border: none;
+    color: black;
+}
+
+
+.section-hero img{
+    width: 100%;
+}
+
+
+.ask-any{
+    display: flex;
+    position: relative;
+    background-color: #74ac5c;
+    width: 18rem;
+
+}
+.ask-any::after{
+    content: "";
+    position: absolute;
+    background-color: #74ac5c;
+    top: 14.6%;
+    right: -9.5%;
+    width: 3.43rem;
+    height: 3.43rem;
+    transform: rotate(45deg);
+    z-index: -1;
+
+}
+.second-header-text h3{
+    font-size: 1.8rem;
+    color: black;
+}
+.second-header-text p{
+   color: white;
+}
+
+
+
+/*Description Section*/
+
+.section-desc img{
+    width: 80%;
+    
+}
+
+.img-box{
+    justify-self: center;
+    align-self: center;
+}
+
+.text-box{
+    padding:9.6rem 6.4rem 4.8rem 6.4rem;
+}
+
+
+
+/*Section AI*/
+.section-ai{
+    padding: 4.8rem 4.8rem 4.8rem 2.4rem;
+}
+
+.heading-sec{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+
+}
+
+.ai-text-box{
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+.ai-text-box p{
+    font-size: 2rem;
+    line-height: 1.8rem;
+}
+
+.ai-grid{
+    justify-content: center;
+    align-items: center;
+    padding:6.4rem 2.4rem;
+    
+}
+.ai-grid img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 2.2rem 1.8rem #ddd;
+
+}
+
+.dress{
+    align-items: center;
+}
+
+.screw{
+    align-items: center;
+}
+.list{
+    
+    display: flex;
+    flex-direction: column;
+    gap:2.4rem;
+    justify-content: flex-start;
+
+}
+.list-item{
+    width: 100%;
+    padding: 1.2rem 2.4rem;
+    font-size:1.6rem;
+    border-radius: 100px;
+    box-shadow: 0 0 1.2rem #ddd;
+    text-align: center;
+}
+
+.card-item{
+    border-bottom: 3px solid;
+    
+    border-image: linear-gradient(to right, #ff0000, #eee) 1 round;
+}
+
+/*
+Section Service
+*/
+
+.service-grid{
+    align-items: center;
+}
+.section-service{
+    padding: 3.2rem 3.2rem;
+
+}
+
+.card-item{
+    padding: 6.4rem 2.4rem;
+    box-shadow: 0 0 1.2rem 0.4rem #ddd;
+    border-radius: 5px;
+    
+
+}
+.card-item p{
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 0.4rem;
+}
+.card-item span{
+    font-size: 2rem;
+    color: blue;
+}
+.card-item ion-icon{
+   height: 6rem;
+    width: 6rem;
+    margin-bottom: 2.4rem;
+}
+.heading-card{
+    font-size:2.4rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+
+}
+.icons{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+.mb-s{
+    margin-right: 1.2rem;
+}
+.mb-med{
+    margin-bottom: 2.4rem;
+}
+
+.card-text{
+    margin-bottom: auto;
+}
+
+
+
+.first-card-text{
+    padding-bottom: 12.8rem;
+}
+.first-card-text p{
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+
+
+
+
+/*memberShip*/
+.mgrid {
+    align-items: end;
+    gap: 7.4rem;
+    
+}
+.membership{
+    padding: 3.2rem 2.4rem;
+   
+}
+.membership img{
+    width: 100%;
+    
+    
+   
+   
+}
+
+
+
+.membership .blue-text{
+    font-size: 3.2rem;
+    color: blue;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.membership p{
+ font-size: 2rem;
+ margin-bottom: 2rem;
+
+}
+
+.membershipList{
+    list-style: none;
+    padding-left: 1.2rem;
+}
+
+.mlist-item{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    
+}
+.mlist-item div{
+   display: flex;
+}
+
+.mButton{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    border: none;
+    
+    font-size: 2rem;
+    padding: 0.4rem 0;
+    color: white;
+}
+.grid-item{
+    box-shadow: 0 0 1.2rem #ddd;
+   
+}
+.grid-item{
+    position: relative;
+}
+
+.grid-item1::before{
+
+    content:"Day Pass ";
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 2.2rem;
+    z-index: 999;
+    font-weight: 600;
+    color:white
+}
+.grid-item1::after{
+
+    content:"Give a try ";
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-size: 1.8rem;
+    z-index: 999;
+    color: white;
+    font-weight: 500;
+}
+.grid-item2::before{
+
+    content:"Shared desk  ";
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 2.2rem;
+    z-index: 999;
+    font-weight: 600;
+    color:white
+}
+.grid-item2::after{
+
+    content:"Economical and flexible ";
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    font-size: 1.8rem;
+    z-index: 999;
+    color: white;
+    font-weight: 500;
+}
+.grid-item3::before{
+
+    content:"Flexible desk ";
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 2.2rem;
+    z-index: 999;
+    font-weight: 600;
+    color:white
+}
+.grid-item3::after{
+
+    content:"At any Chairs ";
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    font-size: 1.8rem;
+    z-index: 999;
+    color: white;
+    font-weight: 500;
+}
+
+
+/*Footer*/
+.footer{
+    background-color: #ffffe0;
+    padding: 2.4rem 3.6rem;
+    font-size: 1.6rem;
+
+}
+
+
+.footer-text{
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-right{
+    padding-left: auto;
+}
+
+
+
+
+
+
+

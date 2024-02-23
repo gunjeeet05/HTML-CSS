@@ -1,0 +1,142 @@
+@media(max-width:60rem){
+    html{
+        font-size: 50%;
+        
+    } 
+
+}
+
+@media(max-width:50rem){
+    .first-header{
+        justify-content: space-around;
+    }
+    .text-box{
+        padding: 6.4rem 4.8rem;
+    }
+    .grid{
+        row-gap: 3.2rem;
+    }
+
+    .list-item{
+        padding: 0.4rem;
+    } 
+    .dress{
+        grid-template-columns: 4fr 6fr;
+    }
+    .screw{
+        grid-template-columns: 6fr 4fr;
+    }
+
+    .service-grid{
+       
+        grid-template-columns:1fr;
+    }
+    
+    
+    .first-card-text{
+        padding-bottom: 3.2rem;
+    }
+    .heading-sec{
+        margin-bottom: 1.2rem;
+    }
+    .mgrid{
+        gap:3.2rem;
+    }
+ 
+    .section-service{
+        padding: 8rem 3.2rem;
+    
+    }
+    .mlist-item p{
+        margin-left: 1.2rem;
+    }
+
+    .mlist-item p::first-line{
+        margin-left: none;
+    }
+}
+
+@media(max-width:38rem){
+    .third-header ul{
+        display: none;
+    }
+    
+    .third-header ion-icon[name="menu-outline"]{
+        display: block;
+    }
+
+    .open-nav ion-icon[name="menu-outline"]{
+        display: none;
+    }
+    .open-nav ion-icon[name="close-outline"]{
+        display: block;
+    }
+
+    .open-nav .third-header ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .section-desc{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .text-box {
+        padding: 6.4rem 2.4rem 3.2rem 2.4rem;
+    }
+    .heading-primary{
+        margin-bottom: 2.4rem;
+    }
+
+    .section-desc img{
+        width: 80%;
+        
+    }
+
+
+    .ai-grid{
+        grid-template-columns: 1fr;
+        gap:6.4rem;
+
+    }
+    .dress{
+        grid-template-columns: 1fr 1fr;
+    }
+    .screw{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mgrid{
+        grid-template-columns: 1fr;
+    }
+    .section-service{
+        padding: 4rem 2.4rem;
+    }
+    .second-header .ask-any{
+        display: none;
+        
+    }
+
+    .footer{
+        text-align: center;
+    }
+    .footer-text{
+        flex-direction: column;
+    }
+
+    .order-img{
+        order:999;
+    }
+    .second-logo-header{
+        display: none;
+    }
+    
+
+
+    
+}
+
