@@ -191,6 +191,7 @@ ion-icon{
 
 /*Section AI*/
 .section-ai{
+    background-color: #faf8ff;
     padding: 4.8rem 4.8rem 4.8rem 2.4rem;
 }
 
@@ -332,6 +333,7 @@ Section Service
 }
 .membership{
     padding: 3.2rem 2.4rem;
+    background-color: #faf8ff;
    
 }
 .membership img{
@@ -366,6 +368,12 @@ Section Service
     font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 1.2rem;
+    border-bottom: 1px solid #ddd;
+    
+}
+.mlist-item:last-child{
+    
+    border-bottom: none;
     
 }
 .mlist-item div{
@@ -384,6 +392,8 @@ Section Service
 }
 .grid-item{
     box-shadow: 0 0 1.2rem #ddd;
+    border-radius: 5px;
+    overflow: hidden;
    
 }
 .grid-item{
